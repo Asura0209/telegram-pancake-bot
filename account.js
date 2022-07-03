@@ -10,6 +10,8 @@ for (var i = 0, len = params.length; i < len; i+=1) {
 
 const web3 = new Web3();
 
+
+
 function addAccount () {
     fs.readFile('./accounts.json', "utf-8", (err, data) => {
         if(err) {
